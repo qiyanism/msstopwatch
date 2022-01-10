@@ -1,0 +1,34 @@
+body {
+    background: #101011;
+    color: rgb(205, 243, 214);
+    
+}
+button {
+    width: 100px;
+    height: 30px;
+    border: 1px solid rgb(241, 250, 242);
+    border-radius: 50px;
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    cursor: pointer;
+    outline: none;
+}
+
+#stopwatch {
+    font-size: 100px;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -55%);
+}
+#buttons {
+    position: absolute;
+    top: 55%;
+    left: 48.4%;
+    transform: translate(-51.6%, -45%);
+}
+#buttons li {
+    display: inline;
+    padding-left: 10px;
+}
